@@ -13,6 +13,6 @@ namespace MongoDBDemo
         public Guid Id { get; set; } //GUID (Global Unique Identifier), global olarak benzersiz olarak üretilen 128 bit uzunluğunda bir veridir.
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
+        public AddressModel PrimaryAddress { get; set; }
     }
 }
